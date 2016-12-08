@@ -12,7 +12,7 @@ export class ImgLoader {
   private url: string;
 
   constructor(config: Config) {
-    this.url = config.get('imgworkerurl', IMG_WORKER_URL);
+    this.url = config.get('imgWorkerUrl', IMG_WORKER_URL);
   }
 
   load(src: string, cache: boolean, callback: Function) {
